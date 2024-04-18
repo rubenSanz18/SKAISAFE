@@ -9,12 +9,13 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BakelitePlastic.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Asphalt.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BlanketFabric.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.3354055832276029 0.21887315253270714 0.9162956061447342 2.449179444637107
-  position 133.29740247974084 -103.76643080955225 146.94857400915748
+  orientation -0.42849147063035126 0.16327150352426317 0.8886717480228373 2.402840722524818
+  position 71.01496333365665 -86.34032193367041 119.94755170011541
 }
 TexturedBackground {
 }
@@ -296,4 +297,22 @@ Solid {
   recognitionColors [
     0 0 0
   ]
+}
+Mavic2Pro {
+  hidden position_0_0 1.2065048659083137e-07
+  hidden linearVelocity_0 5.083415335841674 3.360103400791532 -1.5159773692354568
+  hidden angularVelocity_0 22.052842826804948 -6.727000058433378 -21.093947152273483
+  hidden rotation_5 0 0 1 1.1920928955078128e-07
+  hidden position_5_0 0.6132170591649575
+  hidden linearVelocity_5 3.4979698466934455 1.1951946174782382 -1.4482029664819143
+  hidden angularVelocity_5 22.05284255947752 -6.726999114799213 -21.093946545820227
+  hidden rotation_6 0 1 0 0.6132170591649572
+  hidden position_6_0 0.5000448026160667
+  hidden linearVelocity_6 3.4760775728758015 1.0279374171807447 -1.4409769821238265
+  hidden angularVelocity_6 13.236082473252559 -11.612092834641752 -21.39386745528837
+  hidden rotation_7 1 0 0 0.5000448026160663
+  hidden linearVelocity_7 3.5139071549827237 0.8876386693877083 -1.3480753829359078
+  hidden angularVelocity_7 13.22713733539608 -11.620004926466294 -21.39641870994778
+  translation 24.70506435100965 11.43739202316025 27.711602134238035
+  rotation 0.2974738969958196 0.3657338208799766 0.8819002510888938 -2.1748300040507127
 }
