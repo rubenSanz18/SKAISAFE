@@ -1,0 +1,299 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/UnevenTerrain.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/Windmill.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BakelitePlastic.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Asphalt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BlanketFabric.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3354055832276029 0.21887315253270714 0.9162956061447342 2.449179444637107
+  position 133.29740247974084 -103.76643080955225 146.94857400915748
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+UnevenTerrain {
+  size 100 100 10
+}
+Windmill {
+  translation -22.6306 22.4969 5.02
+  rotation 0 0 -1 0.523597
+  name "windmill(2)"
+}
+Windmill {
+  translation -16.5925 27.6367 5.02
+  rotation 0 0 -1 0.523597
+  name "windmill(3)"
+}
+Windmill {
+  translation -15.4964 16.5542 5.02
+  rotation 0 0 -1 0.523597
+  name "windmill(4)"
+}
+Windmill {
+  translation -13.8714 21.6091 5.02
+  rotation 0 0 -1 0.523597
+  name "windmill(5)"
+}
+Windmill {
+  translation -21.92 14.43 5.02
+  rotation 0 0 1 -0.523595307179586
+}
+Windmill {
+  translation -24.0052 7.94183 5.02
+  rotation 0 0 1 0.261803
+  name "windmill(1)"
+}
+Wall {
+  translation 1.75 -49.53 4.62
+  size 100 1 5
+}
+Wall {
+  translation -49.51 0.89 4.62
+  name "wall(2)"
+  size 1 100 5
+}
+Wall {
+  translation 50.98 0.89 4.62
+  name "wall(3)"
+  size 1 100 5
+}
+Wall {
+  translation 1.75 50 4.62
+  name "wall(1)"
+  size 100 1 5
+}
+Robot {
+  translation 48.4 -47.65 9.86
+  children [
+    Shape {
+      appearance BrushedAluminium {
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+    Camera {
+      translation 0 0 1.25
+      children [
+        Pose {
+          children [
+            Shape {
+              appearance BrushedAluminium {
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.05
+              }
+            }
+          ]
+        }
+      ]
+      fieldOfView 1.05
+      width 128
+      height 128
+      antiAliasing TRUE
+      recognition Recognition {
+      }
+    }
+  ]
+  boundingObject Box {
+    size 1 1 1
+  }
+  controller "my_controller1"
+  window "<none>"
+}
+Robot {
+  translation 48.5 42.07 9.96
+  children [
+    Shape {
+      appearance BrushedAluminium {
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+    Camera {
+      translation 0 0 1.25
+      children [
+        Pose {
+          children [
+            Shape {
+              appearance BrushedAluminium {
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.05
+              }
+            }
+          ]
+        }
+      ]
+      fieldOfView 1.05
+      width 128
+      height 128
+      antiAliasing TRUE
+      recognition Recognition {
+      }
+    }
+  ]
+  name "robot(1)"
+  boundingObject Box {
+    size 1 1 1
+  }
+  controller "my_controller1"
+  window "<none>"
+}
+Robot {
+  translation -46.87 45.85 10.06
+  children [
+    Shape {
+      appearance BrushedAluminium {
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+    Camera {
+      translation 0 0 1.25
+      rotation 2.3464099999913877e-06 1.3546999999950276e-06 0.9999999999963296 2.0944
+      children [
+        Pose {
+          children [
+            Shape {
+              appearance BrushedAluminium {
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.05
+              }
+            }
+          ]
+        }
+      ]
+      fieldOfView 1.05
+      width 128
+      height 128
+      antiAliasing TRUE
+      recognition Recognition {
+      }
+    }
+  ]
+  name "robot(2)"
+  boundingObject Box {
+    size 1 1 1
+  }
+  controller "my_controller1"
+  window "<none>"
+}
+Robot {
+  translation -46.77 -46.83 10.16
+  children [
+    Shape {
+      appearance BrushedAluminium {
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+    Camera {
+      translation 0 0 1.25
+      rotation -0.11303700701811474 -0.06526350405200715 0.9914450615557275 -3.1415853071795863
+      children [
+        Pose {
+          children [
+            Shape {
+              appearance BrushedAluminium {
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.05
+              }
+            }
+          ]
+        }
+      ]
+      fieldOfView 1.05
+      width 128
+      height 128
+      antiAliasing TRUE
+      recognition Recognition {
+      }
+    }
+  ]
+  name "robot(3)"
+  boundingObject Box {
+    size 1 1 1
+  }
+  controller "my_controller1"
+  window "<none>"
+}
+Solid {
+  translation -49.8 -47.01 11.03
+  children [
+    Shape {
+      appearance BakelitePlastic {
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  recognitionColors [
+    0 0 0
+  ]
+}
+Solid {
+  translation 51.8 -48.4 11.03
+  children [
+    Shape {
+      appearance Asphalt {
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "solid(1)"
+  recognitionColors [
+    0 0 0
+  ]
+}
+Solid {
+  translation 51.44 42.21 11.03
+  children [
+    Shape {
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "solid(2)"
+  recognitionColors [
+    0 0 0
+  ]
+}
+Solid {
+  translation -48.16 48.28 11.03
+  children [
+    Shape {
+      appearance BlanketFabric {
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "solid(3)"
+  recognitionColors [
+    0 0 0
+  ]
+}
